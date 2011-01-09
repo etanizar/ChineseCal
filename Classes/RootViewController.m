@@ -49,7 +49,6 @@
 				CalendarViewController *calendarController = [[CalendarViewController alloc]
 															  initWithNibName:@"CalendarView" bundle:nil];
 				self.calendarViewController = calendarController;
-				calendarController.rootController = self;
 				[calendarController release];
 			}
 			[self.view insertSubview:calendarViewController.view atIndex:0];
@@ -59,7 +58,6 @@
 				InfoViewController *infoController = [[InfoViewController alloc]
 													  initWithNibName:@"InfoView" bundle:nil];
 				self.infoViewController = infoController;
-				infoController.rootController = self;
 				[infoController release];
 			}
 			[self.view insertSubview:infoViewController.view atIndex:0];
@@ -69,7 +67,6 @@
 				LSCalendarViewController *lsCalendarController = [[LSCalendarViewController alloc] 
 																  initWithNibName:@"LSCalendarView" bundle:nil];
 				self.lsCalendarViewController = lsCalendarController;
-				lsCalendarController.rootController = self;
 				[lsCalendarController release];
 			}
 			[self.view insertSubview:lsCalendarViewController.view atIndex:0];
@@ -79,7 +76,6 @@
 				InfoViewController *lsInfoController = [[InfoViewController alloc]
 														initWithNibName:@"LSInfoView" bundle:nil];
 				self.lsInfoViewController = lsInfoController;
-				lsInfoController.rootController = self;
 				[lsInfoController release];
 			}
 			[self.view insertSubview:lsInfoViewController.view atIndex:0];
@@ -94,11 +90,17 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	self.view.autoresizesSubviews = NO;
+
+	[[NSNotificationCenter defaultCenter] addObserver: self
+											 selector: @selector(viewSwitched:)
+												 name: @"viewSwitched"
+											   object: nil ];
+	
 	[self showView:portraitCalendar];
     [super viewDidLoad];
 }
 
-- (void) switchViews {
+- (void) viewSwitched: (NSNotification *) notification {
 	[UIView beginAnimations:@"ViewFlip" context:nil];
 	[UIView setAnimationDuration:1.25];
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];

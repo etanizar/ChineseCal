@@ -11,10 +11,7 @@
 @class RootViewController;
 
 @interface InfoViewController : UIViewController {
-	RootViewController *rootController;
 }
-
-@property (nonatomic, retain) RootViewController *rootController;
 
 - (IBAction)doneButtonPressed;
 

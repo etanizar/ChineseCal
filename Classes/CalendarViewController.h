@@ -12,7 +12,6 @@
 @class CalendarYear;
 
 @interface CalendarViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UIActionSheetDelegate, UIPickerViewDelegate> {
-	RootViewController *rootController;
 	UIBarButtonItem *prevButton;
 	UIBarButtonItem *nextButton;
 	UINavigationBar *navBar;
@@ -23,7 +22,6 @@
 	NSInteger selectedYear; // for year picker
 }
 
-@property (nonatomic, retain) RootViewController *rootController;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *prevButton;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *nextButton;
 @property (nonatomic, retain) IBOutlet UINavigationBar *navBar; 

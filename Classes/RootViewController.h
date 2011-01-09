@@ -32,6 +32,4 @@ enum viewType {
 @property (retain, nonatomic) InfoViewController *infoViewController;
 @property (retain, nonatomic) InfoViewController *lsInfoViewController;
 
-- (void) switchViews;
-
 @end

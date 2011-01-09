@@ -13,7 +13,6 @@
 
 @implementation CalendarViewController
 
-@synthesize rootController;
 @synthesize prevButton;
 @synthesize nextButton;
 @synthesize navBar;
@@ -106,7 +105,7 @@
 }
 
 - (void)infoButtonPressed {
-	[rootController switchViews]; 
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"viewSwitched" object:nil];
 }
 
 - (void) showYearPicker {

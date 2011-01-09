@@ -11,10 +11,8 @@
 
 @implementation InfoViewController
 
-@synthesize rootController;
-
 - (IBAction)doneButtonPressed {
-	[rootController switchViews]; 
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"viewSwitched" object:nil];
 }
 
 - (void)didReceiveMemoryWarning {
