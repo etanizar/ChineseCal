@@ -79,7 +79,7 @@
 							</object>
 							<object class="IBUIBarButtonItem" id="85058955">
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<float key="IBUIWidth">44</float>
+								<float key="IBUIWidth">46</float>
 								<reference key="IBUIToolbar" ref="808168846"/>
 								<int key="IBUISystemItemIdentifier">6</int>
 							</object>

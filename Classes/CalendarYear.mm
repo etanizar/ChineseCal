@@ -135,7 +135,7 @@ FILE *g_ccal_ofp;
 @synthesize todayDay;
 
 - (id) init {
-	DebugLog(@"Initializing CalendarYear ...");
+	DebugLog(@"init CalendarYear");
 	
 	// Init shortMonths
 	shortMonths = [[NSArray alloc] initWithObjects: 
@@ -166,7 +166,7 @@ FILE *g_ccal_ofp;
 }
 
 - (void)refreshToday {
-	DebugLog(@"refreshToday ...");
+	DebugLog(@"refreshToday");
 	self.today = [NSDate date];
 	NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
 	NSDateComponents *calComponents = [gregorian components:(NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit) fromDate:today];
