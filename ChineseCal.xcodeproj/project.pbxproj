@@ -51,6 +51,7 @@
 		DA96248112CF80B0004B1A6D /* LSCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA96248012CF80B0004B1A6D /* LSCalendarViewController.m */; };
 		DA96248312CF80C3004B1A6D /* LSCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA96248212CF80C3004B1A6D /* LSCalendarView.xib */; };
 		DA9E872012C6E9BE00085D01 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E871F12C6E9BE00085D01 /* RootViewController.m */; };
+		DAACB1D912DE217700FA265E /* ChineseCal-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAACB1D812DE217700FA265E /* ChineseCal-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +64,6 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ChineseCal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCal_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* ChineseCal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChineseCal-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		DA04A54112C921440061BDB4 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		DA04A54212C921440061BDB4 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		DA2006D612CBA8B500EC150E /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
@@ -123,6 +123,7 @@
 		DA96248212CF80C3004B1A6D /* LSCalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSCalendarView.xib; sourceTree = "<group>"; };
 		DA9E871E12C6E9BE00085D01 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		DA9E871F12C6E9BE00085D01 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DAACB1D812DE217700FA265E /* ChineseCal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChineseCal-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,17 +197,17 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DAACB1D812DE217700FA265E /* ChineseCal-Info.plist */,
 				DA857E9912CD9D64006B87CE /* appIcon.png */,
 				DA857E9A12CD9D64006B87CE /* appIcon@2x.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* ChineseCal-Info.plist */,
 				DA49C6FD12C7D9C10092DE2E /* CalendarView.xib */,
 				DA559B9F12CA6A8100C1B4B4 /* DefaultCalendarCell.xib */,
 				DA2006D612CBA8B500EC150E /* InfoView.xib */,
 				DA96248212CF80C3004B1A6D /* LSCalendarView.xib */,
 				DA81558E12CFB53400C2C149 /* LSInfoView.xib */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -337,6 +338,7 @@
 				DA5F385712DE076A009B32D3 /* COPYING.LESSER in Resources */,
 				DA5F385C12DE076A009B32D3 /* mkinstalldirs in Resources */,
 				DA5F386212DE076A009B32D3 /* README in Resources */,
+				DAACB1D912DE217700FA265E /* ChineseCal-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
