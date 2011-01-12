@@ -19,7 +19,13 @@
 #ifndef LUNARYEAR_H
 #define LUNARYEAR_H
 
-#include "global.h"
+#ifndef NO_NAMESPACE
+#include <vector>
+typedef std::vector<double> vdouble;
+#else
+#include <vector.h>
+typedef vector<double> vdouble;
+#endif
 
 /* Inputs:
    year

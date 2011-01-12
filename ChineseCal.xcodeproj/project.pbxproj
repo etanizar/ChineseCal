@@ -21,6 +21,29 @@
 		DA49C6FE12C7D9C10092DE2E /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA49C6FD12C7D9C10092DE2E /* CalendarView.xib */; };
 		DA559B9712CA689700C1B4B4 /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA559B9612CA689700C1B4B4 /* CalendarCell.m */; };
 		DA559BA012CA6A8100C1B4B4 /* DefaultCalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA559B9F12CA6A8100C1B4B4 /* DefaultCalendarCell.xib */; };
+		DA5F385012DE076A009B32D3 /* ccal.1 in Resources */ = {isa = PBXBuildFile; fileRef = DA5F382D12DE076A009B32D3 /* ccal.1 */; };
+		DA5F385112DE076A009B32D3 /* ccal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F382E12DE076A009B32D3 /* ccal.cpp */; };
+		DA5F385212DE076A009B32D3 /* ccalhtm.xsl in Resources */ = {isa = PBXBuildFile; fileRef = DA5F382F12DE076A009B32D3 /* ccalhtm.xsl */; };
+		DA5F385312DE076A009B32D3 /* ccalpdf in Resources */ = {isa = PBXBuildFile; fileRef = DA5F383012DE076A009B32D3 /* ccalpdf */; };
+		DA5F385412DE076A009B32D3 /* ccalpdf.1 in Resources */ = {isa = PBXBuildFile; fileRef = DA5F383112DE076A009B32D3 /* ccalpdf.1 */; };
+		DA5F385512DE076A009B32D3 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = DA5F383212DE076A009B32D3 /* ChangeLog */; };
+		DA5F385612DE076A009B32D3 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = DA5F383312DE076A009B32D3 /* COPYING */; };
+		DA5F385712DE076A009B32D3 /* COPYING.LESSER in Resources */ = {isa = PBXBuildFile; fileRef = DA5F383412DE076A009B32D3 /* COPYING.LESSER */; };
+		DA5F385812DE076A009B32D3 /* htmlmonth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F383512DE076A009B32D3 /* htmlmonth.cpp */; };
+		DA5F385912DE076A009B32D3 /* lunaryear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F383712DE076A009B32D3 /* lunaryear.cpp */; };
+		DA5F385A12DE076A009B32D3 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = DA5F383912DE076A009B32D3 /* Makefile */; };
+		DA5F385B12DE076A009B32D3 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F383A12DE076A009B32D3 /* misc.cpp */; };
+		DA5F385C12DE076A009B32D3 /* mkinstalldirs in Resources */ = {isa = PBXBuildFile; fileRef = DA5F383B12DE076A009B32D3 /* mkinstalldirs */; };
+		DA5F385D12DE076A009B32D3 /* moonphase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F383D12DE076A009B32D3 /* moonphase.cpp */; };
+		DA5F385E12DE076A009B32D3 /* mphases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F383E12DE076A009B32D3 /* mphases.cpp */; };
+		DA5F385F12DE076A009B32D3 /* novas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F384012DE076A009B32D3 /* novas.cpp */; };
+		DA5F386012DE076A009B32D3 /* novascon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F384212DE076A009B32D3 /* novascon.cpp */; };
+		DA5F386112DE076A009B32D3 /* psmonth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F384412DE076A009B32D3 /* psmonth.cpp */; };
+		DA5F386212DE076A009B32D3 /* README in Resources */ = {isa = PBXBuildFile; fileRef = DA5F384612DE076A009B32D3 /* README */; };
+		DA5F386312DE076A009B32D3 /* solarterm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F384812DE076A009B32D3 /* solarterm.cpp */; };
+		DA5F386412DE076A009B32D3 /* solsys3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F384A12DE076A009B32D3 /* solsys3.cpp */; };
+		DA5F386512DE076A009B32D3 /* tt2ut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F384B12DE076A009B32D3 /* tt2ut.cpp */; };
+		DA5F386612DE076A009B32D3 /* yearcache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5F384E12DE076A009B32D3 /* yearcache.cpp */; };
 		DA81558F12CFB53400C2C149 /* LSInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA81558E12CFB53400C2C149 /* LSInfoView.xib */; };
 		DA81561B12D036AA00C2C149 /* CalendarYear.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA81561A12D036AA00C2C149 /* CalendarYear.mm */; };
 		DA857E9B12CD9D64006B87CE /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA857E9912CD9D64006B87CE /* appIcon.png */; };
@@ -28,29 +51,6 @@
 		DA96248112CF80B0004B1A6D /* LSCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA96248012CF80B0004B1A6D /* LSCalendarViewController.m */; };
 		DA96248312CF80C3004B1A6D /* LSCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA96248212CF80C3004B1A6D /* LSCalendarView.xib */; };
 		DA9E872012C6E9BE00085D01 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E871F12C6E9BE00085D01 /* RootViewController.m */; };
-		DACD872F12C8215E0064E693 /* ccal.1 in Resources */ = {isa = PBXBuildFile; fileRef = DACD870C12C8215E0064E693 /* ccal.1 */; };
-		DACD873012C8215E0064E693 /* ccal.h in Sources */ = {isa = PBXBuildFile; fileRef = DACD870D12C8215E0064E693 /* ccal.h */; };
-		DACD873112C8215E0064E693 /* ccalhtm.xsl in Resources */ = {isa = PBXBuildFile; fileRef = DACD870E12C8215E0064E693 /* ccalhtm.xsl */; };
-		DACD873212C8215E0064E693 /* ccalpdf in Resources */ = {isa = PBXBuildFile; fileRef = DACD870F12C8215E0064E693 /* ccalpdf */; };
-		DACD873312C8215E0064E693 /* ccalpdf.1 in Resources */ = {isa = PBXBuildFile; fileRef = DACD871012C8215E0064E693 /* ccalpdf.1 */; };
-		DACD873412C8215E0064E693 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = DACD871112C8215E0064E693 /* ChangeLog */; };
-		DACD873512C8215E0064E693 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = DACD871212C8215E0064E693 /* COPYING */; };
-		DACD873612C8215E0064E693 /* COPYING.LESSER in Resources */ = {isa = PBXBuildFile; fileRef = DACD871312C8215E0064E693 /* COPYING.LESSER */; };
-		DACD873712C8215E0064E693 /* htmlmonth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD871412C8215E0064E693 /* htmlmonth.cpp */; };
-		DACD873812C8215E0064E693 /* lunaryear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD871612C8215E0064E693 /* lunaryear.cpp */; };
-		DACD873912C8215E0064E693 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = DACD871812C8215E0064E693 /* Makefile */; };
-		DACD873A12C8215E0064E693 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD871912C8215E0064E693 /* misc.cpp */; };
-		DACD873B12C8215E0064E693 /* mkinstalldirs in Resources */ = {isa = PBXBuildFile; fileRef = DACD871A12C8215E0064E693 /* mkinstalldirs */; };
-		DACD873C12C8215E0064E693 /* moonphase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD871C12C8215E0064E693 /* moonphase.cpp */; };
-		DACD873D12C8215E0064E693 /* mphases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD871D12C8215E0064E693 /* mphases.cpp */; };
-		DACD873E12C8215E0064E693 /* novas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD871F12C8215E0064E693 /* novas.cpp */; };
-		DACD873F12C8215E0064E693 /* novascon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD872112C8215E0064E693 /* novascon.cpp */; };
-		DACD874012C8215E0064E693 /* psmonth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD872312C8215E0064E693 /* psmonth.cpp */; };
-		DACD874112C8215E0064E693 /* README in Resources */ = {isa = PBXBuildFile; fileRef = DACD872512C8215E0064E693 /* README */; };
-		DACD874212C8215E0064E693 /* solarterm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD872712C8215E0064E693 /* solarterm.cpp */; };
-		DACD874312C8215E0064E693 /* solsys3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD872912C8215E0064E693 /* solsys3.cpp */; };
-		DACD874412C8215E0064E693 /* tt2ut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD872A12C8215E0064E693 /* tt2ut.cpp */; };
-		DACD874512C8215E0064E693 /* yearcache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DACD872D12C8215E0064E693 /* yearcache.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,7 +66,6 @@
 		8D1107310486CEB800E47090 /* ChineseCal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChineseCal-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		DA04A54112C921440061BDB4 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		DA04A54212C921440061BDB4 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
-		DA1AD50512C84ACA00D43BA8 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
 		DA2006D612CBA8B500EC150E /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
 		DA2006D812CBA8CF00EC150E /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		DA2006D912CBA8CF00EC150E /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
@@ -78,6 +77,42 @@
 		DA559B9512CA689700C1B4B4 /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
 		DA559B9612CA689700C1B4B4 /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
 		DA559B9F12CA6A8100C1B4B4 /* DefaultCalendarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultCalendarCell.xib; sourceTree = "<group>"; };
+		DA5F382D12DE076A009B32D3 /* ccal.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = ccal.1; sourceTree = "<group>"; };
+		DA5F382E12DE076A009B32D3 /* ccal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccal.cpp; sourceTree = "<group>"; };
+		DA5F382F12DE076A009B32D3 /* ccalhtm.xsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ccalhtm.xsl; sourceTree = "<group>"; };
+		DA5F383012DE076A009B32D3 /* ccalpdf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ccalpdf; sourceTree = "<group>"; };
+		DA5F383112DE076A009B32D3 /* ccalpdf.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = ccalpdf.1; sourceTree = "<group>"; };
+		DA5F383212DE076A009B32D3 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		DA5F383312DE076A009B32D3 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		DA5F383412DE076A009B32D3 /* COPYING.LESSER */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LESSER; sourceTree = "<group>"; };
+		DA5F383512DE076A009B32D3 /* htmlmonth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = htmlmonth.cpp; sourceTree = "<group>"; };
+		DA5F383612DE076A009B32D3 /* htmlmonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = htmlmonth.h; sourceTree = "<group>"; };
+		DA5F383712DE076A009B32D3 /* lunaryear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lunaryear.cpp; sourceTree = "<group>"; };
+		DA5F383812DE076A009B32D3 /* lunaryear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lunaryear.h; sourceTree = "<group>"; };
+		DA5F383912DE076A009B32D3 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DA5F383A12DE076A009B32D3 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		DA5F383B12DE076A009B32D3 /* mkinstalldirs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mkinstalldirs; sourceTree = "<group>"; };
+		DA5F383C12DE076A009B32D3 /* moon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moon.h; sourceTree = "<group>"; };
+		DA5F383D12DE076A009B32D3 /* moonphase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moonphase.cpp; sourceTree = "<group>"; };
+		DA5F383E12DE076A009B32D3 /* mphases.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mphases.cpp; sourceTree = "<group>"; };
+		DA5F383F12DE076A009B32D3 /* mphases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mphases.h; sourceTree = "<group>"; };
+		DA5F384012DE076A009B32D3 /* novas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = novas.cpp; sourceTree = "<group>"; };
+		DA5F384112DE076A009B32D3 /* novas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = novas.h; sourceTree = "<group>"; };
+		DA5F384212DE076A009B32D3 /* novascon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = novascon.cpp; sourceTree = "<group>"; };
+		DA5F384312DE076A009B32D3 /* novascon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = novascon.h; sourceTree = "<group>"; };
+		DA5F384412DE076A009B32D3 /* psmonth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psmonth.cpp; sourceTree = "<group>"; };
+		DA5F384512DE076A009B32D3 /* psmonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psmonth.h; sourceTree = "<group>"; };
+		DA5F384612DE076A009B32D3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DA5F384712DE076A009B32D3 /* solarsystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solarsystem.h; sourceTree = "<group>"; };
+		DA5F384812DE076A009B32D3 /* solarterm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = solarterm.cpp; sourceTree = "<group>"; };
+		DA5F384912DE076A009B32D3 /* solarterm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solarterm.h; sourceTree = "<group>"; };
+		DA5F384A12DE076A009B32D3 /* solsys3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = solsys3.cpp; sourceTree = "<group>"; };
+		DA5F384B12DE076A009B32D3 /* tt2ut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tt2ut.cpp; sourceTree = "<group>"; };
+		DA5F384C12DE076A009B32D3 /* tt2ut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tt2ut.h; sourceTree = "<group>"; };
+		DA5F384D12DE076A009B32D3 /* verstr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = verstr.h; sourceTree = "<group>"; };
+		DA5F384E12DE076A009B32D3 /* yearcache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yearcache.cpp; sourceTree = "<group>"; };
+		DA5F384F12DE076A009B32D3 /* yearcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yearcache.h; sourceTree = "<group>"; };
+		DA5F387A12DE07DE009B32D3 /* ccal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccal.h; sourceTree = "<group>"; };
 		DA81558E12CFB53400C2C149 /* LSInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSInfoView.xib; sourceTree = "<group>"; };
 		DA81561912D036AA00C2C149 /* CalendarYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarYear.h; sourceTree = "<group>"; };
 		DA81561A12D036AA00C2C149 /* CalendarYear.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CalendarYear.mm; sourceTree = "<group>"; };
@@ -88,41 +123,6 @@
 		DA96248212CF80C3004B1A6D /* LSCalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSCalendarView.xib; sourceTree = "<group>"; };
 		DA9E871E12C6E9BE00085D01 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		DA9E871F12C6E9BE00085D01 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		DACD870C12C8215E0064E693 /* ccal.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = ccal.1; sourceTree = "<group>"; };
-		DACD870D12C8215E0064E693 /* ccal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccal.h; sourceTree = "<group>"; };
-		DACD870E12C8215E0064E693 /* ccalhtm.xsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ccalhtm.xsl; sourceTree = "<group>"; };
-		DACD870F12C8215E0064E693 /* ccalpdf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ccalpdf; sourceTree = "<group>"; };
-		DACD871012C8215E0064E693 /* ccalpdf.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = ccalpdf.1; sourceTree = "<group>"; };
-		DACD871112C8215E0064E693 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
-		DACD871212C8215E0064E693 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
-		DACD871312C8215E0064E693 /* COPYING.LESSER */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LESSER; sourceTree = "<group>"; };
-		DACD871412C8215E0064E693 /* htmlmonth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = htmlmonth.cpp; sourceTree = "<group>"; };
-		DACD871512C8215E0064E693 /* htmlmonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = htmlmonth.h; sourceTree = "<group>"; };
-		DACD871612C8215E0064E693 /* lunaryear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lunaryear.cpp; sourceTree = "<group>"; };
-		DACD871712C8215E0064E693 /* lunaryear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lunaryear.h; sourceTree = "<group>"; };
-		DACD871812C8215E0064E693 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		DACD871912C8215E0064E693 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
-		DACD871A12C8215E0064E693 /* mkinstalldirs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mkinstalldirs; sourceTree = "<group>"; };
-		DACD871B12C8215E0064E693 /* moon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moon.h; sourceTree = "<group>"; };
-		DACD871C12C8215E0064E693 /* moonphase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moonphase.cpp; sourceTree = "<group>"; };
-		DACD871D12C8215E0064E693 /* mphases.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mphases.cpp; sourceTree = "<group>"; };
-		DACD871E12C8215E0064E693 /* mphases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mphases.h; sourceTree = "<group>"; };
-		DACD871F12C8215E0064E693 /* novas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = novas.cpp; sourceTree = "<group>"; };
-		DACD872012C8215E0064E693 /* novas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = novas.h; sourceTree = "<group>"; };
-		DACD872112C8215E0064E693 /* novascon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = novascon.cpp; sourceTree = "<group>"; };
-		DACD872212C8215E0064E693 /* novascon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = novascon.h; sourceTree = "<group>"; };
-		DACD872312C8215E0064E693 /* psmonth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psmonth.cpp; sourceTree = "<group>"; };
-		DACD872412C8215E0064E693 /* psmonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psmonth.h; sourceTree = "<group>"; };
-		DACD872512C8215E0064E693 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		DACD872612C8215E0064E693 /* solarsystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solarsystem.h; sourceTree = "<group>"; };
-		DACD872712C8215E0064E693 /* solarterm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = solarterm.cpp; sourceTree = "<group>"; };
-		DACD872812C8215E0064E693 /* solarterm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solarterm.h; sourceTree = "<group>"; };
-		DACD872912C8215E0064E693 /* solsys3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = solsys3.cpp; sourceTree = "<group>"; };
-		DACD872A12C8215E0064E693 /* tt2ut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tt2ut.cpp; sourceTree = "<group>"; };
-		DACD872B12C8215E0064E693 /* tt2ut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tt2ut.h; sourceTree = "<group>"; };
-		DACD872C12C8215E0064E693 /* verstr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = verstr.h; sourceTree = "<group>"; };
-		DACD872D12C8215E0064E693 /* yearcache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yearcache.cpp; sourceTree = "<group>"; };
-		DACD872E12C8215E0064E693 /* yearcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yearcache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,8 +173,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DA5F382C12DE076A009B32D3 /* ccal-2.5.2 */,
 				DA04A54012C921440061BDB4 /* gdata-xml */,
-				DACD870B12C8215E0064E693 /* ccal-2.5.2 */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -228,45 +228,45 @@
 			path = "gdata-xml";
 			sourceTree = "<group>";
 		};
-		DACD870B12C8215E0064E693 /* ccal-2.5.2 */ = {
+		DA5F382C12DE076A009B32D3 /* ccal-2.5.2 */ = {
 			isa = PBXGroup;
 			children = (
-				DACD870C12C8215E0064E693 /* ccal.1 */,
-				DACD870D12C8215E0064E693 /* ccal.h */,
-				DACD870E12C8215E0064E693 /* ccalhtm.xsl */,
-				DACD870F12C8215E0064E693 /* ccalpdf */,
-				DACD871012C8215E0064E693 /* ccalpdf.1 */,
-				DACD871112C8215E0064E693 /* ChangeLog */,
-				DACD871212C8215E0064E693 /* COPYING */,
-				DACD871312C8215E0064E693 /* COPYING.LESSER */,
-				DA1AD50512C84ACA00D43BA8 /* global.h */,
-				DACD871412C8215E0064E693 /* htmlmonth.cpp */,
-				DACD871512C8215E0064E693 /* htmlmonth.h */,
-				DACD871612C8215E0064E693 /* lunaryear.cpp */,
-				DACD871712C8215E0064E693 /* lunaryear.h */,
-				DACD871812C8215E0064E693 /* Makefile */,
-				DACD871912C8215E0064E693 /* misc.cpp */,
-				DACD871A12C8215E0064E693 /* mkinstalldirs */,
-				DACD871B12C8215E0064E693 /* moon.h */,
-				DACD871C12C8215E0064E693 /* moonphase.cpp */,
-				DACD871D12C8215E0064E693 /* mphases.cpp */,
-				DACD871E12C8215E0064E693 /* mphases.h */,
-				DACD871F12C8215E0064E693 /* novas.cpp */,
-				DACD872012C8215E0064E693 /* novas.h */,
-				DACD872112C8215E0064E693 /* novascon.cpp */,
-				DACD872212C8215E0064E693 /* novascon.h */,
-				DACD872312C8215E0064E693 /* psmonth.cpp */,
-				DACD872412C8215E0064E693 /* psmonth.h */,
-				DACD872512C8215E0064E693 /* README */,
-				DACD872612C8215E0064E693 /* solarsystem.h */,
-				DACD872712C8215E0064E693 /* solarterm.cpp */,
-				DACD872812C8215E0064E693 /* solarterm.h */,
-				DACD872912C8215E0064E693 /* solsys3.cpp */,
-				DACD872A12C8215E0064E693 /* tt2ut.cpp */,
-				DACD872B12C8215E0064E693 /* tt2ut.h */,
-				DACD872C12C8215E0064E693 /* verstr.h */,
-				DACD872D12C8215E0064E693 /* yearcache.cpp */,
-				DACD872E12C8215E0064E693 /* yearcache.h */,
+				DA5F382D12DE076A009B32D3 /* ccal.1 */,
+				DA5F387A12DE07DE009B32D3 /* ccal.h */,
+				DA5F382E12DE076A009B32D3 /* ccal.cpp */,
+				DA5F382F12DE076A009B32D3 /* ccalhtm.xsl */,
+				DA5F383012DE076A009B32D3 /* ccalpdf */,
+				DA5F383112DE076A009B32D3 /* ccalpdf.1 */,
+				DA5F383212DE076A009B32D3 /* ChangeLog */,
+				DA5F383312DE076A009B32D3 /* COPYING */,
+				DA5F383412DE076A009B32D3 /* COPYING.LESSER */,
+				DA5F383512DE076A009B32D3 /* htmlmonth.cpp */,
+				DA5F383612DE076A009B32D3 /* htmlmonth.h */,
+				DA5F383712DE076A009B32D3 /* lunaryear.cpp */,
+				DA5F383812DE076A009B32D3 /* lunaryear.h */,
+				DA5F383912DE076A009B32D3 /* Makefile */,
+				DA5F383A12DE076A009B32D3 /* misc.cpp */,
+				DA5F383B12DE076A009B32D3 /* mkinstalldirs */,
+				DA5F383C12DE076A009B32D3 /* moon.h */,
+				DA5F383D12DE076A009B32D3 /* moonphase.cpp */,
+				DA5F383E12DE076A009B32D3 /* mphases.cpp */,
+				DA5F383F12DE076A009B32D3 /* mphases.h */,
+				DA5F384012DE076A009B32D3 /* novas.cpp */,
+				DA5F384112DE076A009B32D3 /* novas.h */,
+				DA5F384212DE076A009B32D3 /* novascon.cpp */,
+				DA5F384312DE076A009B32D3 /* novascon.h */,
+				DA5F384412DE076A009B32D3 /* psmonth.cpp */,
+				DA5F384512DE076A009B32D3 /* psmonth.h */,
+				DA5F384612DE076A009B32D3 /* README */,
+				DA5F384712DE076A009B32D3 /* solarsystem.h */,
+				DA5F384812DE076A009B32D3 /* solarterm.cpp */,
+				DA5F384912DE076A009B32D3 /* solarterm.h */,
+				DA5F384A12DE076A009B32D3 /* solsys3.cpp */,
+				DA5F384B12DE076A009B32D3 /* tt2ut.cpp */,
+				DA5F384C12DE076A009B32D3 /* tt2ut.h */,
+				DA5F384D12DE076A009B32D3 /* verstr.h */,
+				DA5F384E12DE076A009B32D3 /* yearcache.cpp */,
+				DA5F384F12DE076A009B32D3 /* yearcache.h */,
 			);
 			path = "ccal-2.5.2";
 			sourceTree = "<group>";
@@ -322,21 +322,21 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				DA49C6FE12C7D9C10092DE2E /* CalendarView.xib in Resources */,
-				DACD872F12C8215E0064E693 /* ccal.1 in Resources */,
-				DACD873112C8215E0064E693 /* ccalhtm.xsl in Resources */,
-				DACD873212C8215E0064E693 /* ccalpdf in Resources */,
-				DACD873312C8215E0064E693 /* ccalpdf.1 in Resources */,
-				DACD873412C8215E0064E693 /* ChangeLog in Resources */,
-				DACD873512C8215E0064E693 /* COPYING in Resources */,
-				DACD873612C8215E0064E693 /* COPYING.LESSER in Resources */,
-				DACD873B12C8215E0064E693 /* mkinstalldirs in Resources */,
-				DACD874112C8215E0064E693 /* README in Resources */,
 				DA559BA012CA6A8100C1B4B4 /* DefaultCalendarCell.xib in Resources */,
 				DA2006D712CBA8B500EC150E /* InfoView.xib in Resources */,
 				DA857E9B12CD9D64006B87CE /* appIcon.png in Resources */,
 				DA857E9C12CD9D64006B87CE /* appIcon@2x.png in Resources */,
 				DA96248312CF80C3004B1A6D /* LSCalendarView.xib in Resources */,
 				DA81558F12CFB53400C2C149 /* LSInfoView.xib in Resources */,
+				DA5F385012DE076A009B32D3 /* ccal.1 in Resources */,
+				DA5F385212DE076A009B32D3 /* ccalhtm.xsl in Resources */,
+				DA5F385312DE076A009B32D3 /* ccalpdf in Resources */,
+				DA5F385412DE076A009B32D3 /* ccalpdf.1 in Resources */,
+				DA5F385512DE076A009B32D3 /* ChangeLog in Resources */,
+				DA5F385612DE076A009B32D3 /* COPYING in Resources */,
+				DA5F385712DE076A009B32D3 /* COPYING.LESSER in Resources */,
+				DA5F385C12DE076A009B32D3 /* mkinstalldirs in Resources */,
+				DA5F386212DE076A009B32D3 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,26 +351,26 @@
 				1D3623260D0F684500981E51 /* ChineseCalAppDelegate.m in Sources */,
 				DA9E872012C6E9BE00085D01 /* RootViewController.m in Sources */,
 				DA49C6FC12C7D9A40092DE2E /* CalendarViewController.m in Sources */,
-				DACD873012C8215E0064E693 /* ccal.h in Sources */,
-				DACD873712C8215E0064E693 /* htmlmonth.cpp in Sources */,
-				DACD873812C8215E0064E693 /* lunaryear.cpp in Sources */,
-				DACD873912C8215E0064E693 /* Makefile in Sources */,
-				DACD873A12C8215E0064E693 /* misc.cpp in Sources */,
-				DACD873C12C8215E0064E693 /* moonphase.cpp in Sources */,
-				DACD873D12C8215E0064E693 /* mphases.cpp in Sources */,
-				DACD873E12C8215E0064E693 /* novas.cpp in Sources */,
-				DACD873F12C8215E0064E693 /* novascon.cpp in Sources */,
-				DACD874012C8215E0064E693 /* psmonth.cpp in Sources */,
-				DACD874212C8215E0064E693 /* solarterm.cpp in Sources */,
-				DACD874312C8215E0064E693 /* solsys3.cpp in Sources */,
-				DACD874412C8215E0064E693 /* tt2ut.cpp in Sources */,
-				DACD874512C8215E0064E693 /* yearcache.cpp in Sources */,
 				DA04A54312C921440061BDB4 /* GDataXMLNode.m in Sources */,
 				DA559B9712CA689700C1B4B4 /* CalendarCell.m in Sources */,
 				DA2006DA12CBA8CF00EC150E /* InfoViewController.m in Sources */,
 				DA96248112CF80B0004B1A6D /* LSCalendarViewController.m in Sources */,
 				DA81561B12D036AA00C2C149 /* CalendarYear.mm in Sources */,
 				DA40D22D12D2CC1D008F6B74 /* WeeklyCalendarCell.m in Sources */,
+				DA5F385112DE076A009B32D3 /* ccal.cpp in Sources */,
+				DA5F385812DE076A009B32D3 /* htmlmonth.cpp in Sources */,
+				DA5F385912DE076A009B32D3 /* lunaryear.cpp in Sources */,
+				DA5F385A12DE076A009B32D3 /* Makefile in Sources */,
+				DA5F385B12DE076A009B32D3 /* misc.cpp in Sources */,
+				DA5F385D12DE076A009B32D3 /* moonphase.cpp in Sources */,
+				DA5F385E12DE076A009B32D3 /* mphases.cpp in Sources */,
+				DA5F385F12DE076A009B32D3 /* novas.cpp in Sources */,
+				DA5F386012DE076A009B32D3 /* novascon.cpp in Sources */,
+				DA5F386112DE076A009B32D3 /* psmonth.cpp in Sources */,
+				DA5F386312DE076A009B32D3 /* solarterm.cpp in Sources */,
+				DA5F386412DE076A009B32D3 /* solsys3.cpp in Sources */,
+				DA5F386512DE076A009B32D3 /* tt2ut.cpp in Sources */,
+				DA5F386612DE076A009B32D3 /* yearcache.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

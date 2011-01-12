@@ -241,7 +241,6 @@ typedef c22_4 *pc22_4;
 #include <string.h>
 #include "htmlmonth.h"
 #include "verstr.h"
-#include "global.h"
 
 /* Input:
    bIsSim: true--set simplified characters, false--set traditional characters
@@ -364,14 +363,14 @@ void Number2DayCH(size_t nday, int nEncoding, char *dayname)
 */
 void PrintHeaderHTML(char *titlestr, size_t month, size_t year, int nEncoding)
 {
-    CCAL_PRINTF("<html>\n<head>\n<meta http-equiv=\"Content-Type\" ");
+    ccal_printf("<html>\n<head>\n<meta http-equiv=\"Content-Type\" ");
     if (nEncoding == 'u')
-        CCAL_PRINTF("content=\"text/html; charset=utf-8\">\n");
+        ccal_printf("content=\"text/html; charset=utf-8\">\n");
     else if (nEncoding == 'g')
-        CCAL_PRINTF("content=\"text/html; charset=gb2312\">\n");
+        ccal_printf("content=\"text/html; charset=gb2312\">\n");
     else
-        CCAL_PRINTF("content=\"text/html; charset=big5\">\n");
-    CCAL_PRINTF("<meta name=\"GENERATOR\" content=\"ccal-%s by Zhuo Meng, http://thunder.cwru.edu/ccal/\">\n", versionstr);
+        ccal_printf("content=\"text/html; charset=big5\">\n");
+    ccal_printf("<meta name=\"GENERATOR\" content=\"ccal-%s by Zhuo Meng, http://thunder.cwru.edu/ccal/\">\n", versionstr);
     pc22_4 miscchar;
     if (nEncoding == 'u')
         miscchar = &U8miscchar;
@@ -380,14 +379,14 @@ void PrintHeaderHTML(char *titlestr, size_t month, size_t year, int nEncoding)
     else
         miscchar = &B5miscchar;
     if (month != 0)
-        CCAL_PRINTF("<title>Chinese Calendar for %s / %d%s%d%s</title>\n", titlestr, year, (*miscchar)[16], month, (*miscchar)[14]);
+        ccal_printf("<title>Chinese Calendar for %s / %d%s%d%s</title>\n", titlestr, year, (*miscchar)[16], month, (*miscchar)[14]);
     else
-        CCAL_PRINTF("<title>Chinese Calendar for %s / %d%s</title>\n", titlestr, year, (*miscchar)[16]);
-    CCAL_PRINTF("</head>\n<body>\n<center>\n");
-    CCAL_PRINTF("<table border=\"1\" cellspacing=\"1\" width=\"90%%\">\n");
+        ccal_printf("<title>Chinese Calendar for %s / %d%s</title>\n", titlestr, year, (*miscchar)[16]);
+    ccal_printf("</head>\n<body>\n<center>\n");
+    ccal_printf("<table border=\"1\" cellspacing=\"1\" width=\"90%%\">\n");
 }
 
 void PrintClosingHTML()
 {
-    CCAL_PRINTF("</table>\n</center>\n</body>\n</html>\n");
+    ccal_printf("</table>\n</center>\n</body>\n</html>\n");
 }

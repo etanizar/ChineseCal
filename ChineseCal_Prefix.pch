@@ -8,7 +8,12 @@
 #endif
 
 #ifdef DEBUG_MODE
-#define DebugLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+	#define DebugLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
 #else
-#define DebugLog( s, ... ) 
+	#define DebugLog( s, ... ) 
 #endif	
+
+#include <stdio.h>
+extern FILE *g_ccal_ofp; // This is the file handle for ccal output (should be initialized by the caller)
+#define ccal_printf(format, args...) fprintf(g_ccal_ofp, format, ## args)
+

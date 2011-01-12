@@ -203,14 +203,14 @@ FILE *g_ccal_ofp;
 
 		fclose(g_ccal_ofp);
 	}
+	[self loadCalendarFromFile:xmlPath];
+	[[NSFileManager defaultManager] removeItemAtPath:xmlPath error:NULL];
+	[xmlPath release];
 	
-	[self loadCalendarFromFile:[self getXmlPathForYear:loadYear]];
 	year = loadYear;
 	[self refreshToday];
 	
 	[[NSNotificationCenter defaultCenter] postNotificationName:@"yearChanged" object:nil];
-	
-	[xmlPath release];
 }
 
 // Loads all the months from the xml file
