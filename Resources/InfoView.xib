@@ -81,23 +81,31 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIEditable">NO</bool>
 						<string type="base64-UTF8" key="IBUIText">Q29weXJpZ2h0IChDKSAyMDExIEVkd2luIFRhbml6YXIKClByb2dyYW1taW5nCiAgICAgRWR3aW4gVGFu
-aXphcgoKVGhpcmQtUGFydHkgU29mdHdhcmUKLSAgIGNjYWwgMi41LjIKICAgICBodHRwOi8vY2NhbC5j
-aGluZXNlYmF5LmNvbQogICAgIFpodW8gTWVuZyAoenhtOEBjYXNlLmVkdSkKLSAgIGdkYXRhLW9iamVj
-dGl2ZWMtY2xpZW50CiAgICAgaHR0cDovL2NvZGUuZ29vZ2xlLmNvbQoKVGhpcyBwcm9ncmFtIGlzIGZy
-ZWUgc29mdHdhcmU7IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIg
-dGhlIHRlcm1zIG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcyBwdWJsaXNoZWQgYnkg
-dGhlIEZyZWUgU29mdHdhcmUgRm91bmRhdGlvbjsgZWl0aGVyIHZlcnNpb24gMiBvZiB0aGUgTGljZW5z
-ZSwgb3IgKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVyc2lvbi4KClRoaXMgcHJvZ3JhbSBpcyBk
-aXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBB
-TlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFC
-SUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuIFNlZSB0aGUgR05VIEdlbmVy
-YWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KCk9ubHkgb3VyIG93biBvcmlnaW5hbCB3
-b3JrIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExp
-Y2Vuc2UuIFRoZSBsaWNlbnNlcyBvZiBzb21lIGxpYnJhcmllcyBtaWdodCBpbXBvc2UgZGlmZmVyZW50
-IHJlZGlzdHJpYnV0aW9uIG9yIGdlbmVyYWwgbGljZW5zaW5nIHRlcm1zIHRoYW4gdGhvc2Ugc3RhdGVk
-IGluIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZS4gVXNlcnMgYW5kIHJlZGlzdHJpYnV0b3Jz
-IGFyZSBoZXJlYnkgcmVxdWVzdGVkIHRvIHZlcmlmeSB0aGVzZSBjb25kaXRpb25zIGFuZCBhZ3JlZSB1
-cG9uIHRoZW0uCg</string>
+aXphcgogICAgIGh0dHBzOi8vZ2l0aHViLmNvbS9ldGFuaXphcgoKVGhpcmQtUGFydHkgU29mdHdhcmUK
+LSAgIGNjYWwgMi41LjIKICAgICBodHRwOi8vY2NhbC5jaGluZXNlYmF5LmNvbQogICAgIFpodW8gTWVu
+ZyAoenhtOEBjYXNlLmVkdSkKLSAgIGdkYXRhLW9iamVjdGl2ZWMtY2xpZW50CiAgICAgaHR0cDovL2Nv
+ZGUuZ29vZ2xlLmNvbQoKUGVybWlzc2lvbiBpcyBoZXJlYnkgZ3JhbnRlZCwgZnJlZSBvZiBjaGFyZ2Us
+IHRvIGFueSBwZXJzb24gb2J0YWluaW5nIGEgY29weSBvZiB0aGlzIHNvZnR3YXJlIGFuZCBhc3NvY2lh
+dGVkIGRvY3VtZW50YXRpb24gZmlsZXMgKHRoZSAiU29mdHdhcmUiKSwgdG8gZGVhbCBpbiB0aGUgU29m
+dHdhcmUgd2l0aG91dCByZXN0cmljdGlvbiwgaW5jbHVkaW5nIHdpdGhvdXQgbGltaXRhdGlvbiB0aGUg
+cmlnaHRzIHRvIHVzZSwgY29weSwgbW9kaWZ5LCBtZXJnZSwgcHVibGlzaCwgZGlzdHJpYnV0ZSwgc3Vi
+bGljZW5zZSwgYW5kL29yIHNlbGwgY29waWVzIG9mIHRoZSBTb2Z0d2FyZSwgYW5kIHRvIHBlcm1pdCBw
+ZXJzb25zIHRvIHdob20gdGhlIFNvZnR3YXJlIGlzIGZ1cm5pc2hlZCB0byBkbyBzbywgc3ViamVjdCB0
+byB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbnM6CiAKVGhlIGFib3ZlIGNvcHlyaWdodCBub3RpY2UgYW5k
+IHRoaXMgcGVybWlzc2lvbiBub3RpY2Ugc2hhbGwgYmUgaW5jbHVkZWQgaW4gYWxsIGNvcGllcyBvciBz
+dWJzdGFudGlhbCBwb3J0aW9ucyBvZiB0aGUgU29mdHdhcmUuCiAKVEhFIFNPRlRXQVJFIElTIFBST1ZJ
+REVEICJBUyBJUyIsIFdJVEhPVVQgV0FSUkFOVFkgT0YgQU5ZIEtJTkQsIEVYUFJFU1MgT1IgSU1QTElF
+RCwgSU5DTFVESU5HIEJVVCBOT1QgTElNSVRFRCBUTyBUSEUgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFC
+SUxJVFksIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFORCBOT05JTkZSSU5HRU1FTlQu
+IElOIE5PIEVWRU5UIFNIQUxMIFRIRSBBVVRIT1JTIE9SIENPUFlSSUdIVCBIT0xERVJTIEJFIExJQUJM
+RSBGT1IgQU5ZIENMQUlNLCBEQU1BR0VTIE9SIE9USEVSIExJQUJJTElUWSwgV0hFVEhFUiBJTiBBTiBB
+Q1RJT04gT0YgQ09OVFJBQ1QsIFRPUlQgT1IgT1RIRVJXSVNFLCBBUklTSU5HIEZST00sIE9VVCBPRiBP
+UiBJTiBDT05ORUNUSU9OIFdJVEggVEhFIFNPRlRXQVJFIE9SIFRIRSBVU0UgT1IgT1RIRVIgREVBTElO
+R1MgSU4gVEhFIFNPRlRXQVJFLgoKT25seSBvdXIgb3duIG9yaWdpbmFsIHdvcmsgaXMgbGljZW5zZWQg
+dW5kZXIgdGhlIHRlcm1zIGFib3ZlLiBUaGUgbGljZW5zZXMgb2Ygc29tZSBsaWJyYXJpZXMgbWlnaHQg
+aW1wb3NlIGRpZmZlcmVudCByZWRpc3RyaWJ1dGlvbiBvciBnZW5lcmFsIGxpY2Vuc2luZyB0ZXJtcyB0
+aGFuIHRob3NlIHN0YXRlZCBhYm92ZS4gVXNlcnMgYW5kIHJlZGlzdHJpYnV0b3JzIGFyZSBoZXJlYnkg
+cmVxdWVzdGVkIHRvIHZlcmlmeSB0aGVzZSBjb25kaXRpb25zIGFuZCBhZ3JlZSB1cG9uIHRoZW0uA</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">TrebuchetMS</string>
 							<double key="NSSize">14</double>
@@ -173,9 +181,9 @@ cG9uIHRoZW0uCg</string>
 						<reference key="object" ref="191373211"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="1062850320"/>
 							<reference ref="900381334"/>
 							<reference ref="818491882"/>
+							<reference ref="1062850320"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -246,11 +254,11 @@ cG9uIHRoZW0uCg</string>
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>InfoViewController</string>
 					<string>UIResponder</string>
-					<string>{{658, 361}, {320, 480}}</string>
+					<string>{{432, 367}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">AUGgAABCSAAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABBoAAAw9sAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
@@ -543,7 +551,7 @@ cG9uIHRoZW0uCg</string>
 			<integer value="3100" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">ChineseCal.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../ChineseCal.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<string key="IBCocoaTouchPluginVersion">132</string>
 	</data>
