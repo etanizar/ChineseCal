@@ -5,11 +5,16 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>ChineseCal</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>appIcon.png</string>
+		<string>appIcon@2x.png</string>
+	</array>
 	<key>CFBundleIdentifier</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>ChineseCal</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -26,10 +31,5 @@
 	<string>MainWindow</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>appIcon.png</string>
-		<string>appIcon@2x.png</string>
-	</array>
 </dict>
 </plist>

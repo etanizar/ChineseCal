@@ -297,6 +297,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = org.tanizar;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ChineseCal" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -397,11 +400,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ChineseCal_Prefix.pch;
 				INFOPLIST_FILE = "ChineseCal-Info.plist";
 				PRODUCT_NAME = ChineseCal;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -426,7 +431,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -434,9 +440,45 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
+		};
+		DAA5D2BE12DFF34200269F9F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: edwin tanizar";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: edwin tanizar";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "46074618-5C32-44E3-A69D-5DB24CCA3EE5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "46074618-5C32-44E3-A69D-5DB24CCA3EE5";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		DAA5D2BF12DFF34200269F9F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: edwin tanizar";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ChineseCal_Prefix.pch;
+				INFOPLIST_FILE = "ChineseCal-Info.plist";
+				PRODUCT_NAME = ChineseCal;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
 		};
 /* End XCBuildConfiguration section */
 
@@ -446,6 +488,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				DAA5D2BF12DFF34200269F9F /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -455,6 +498,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				DAA5D2BE12DFF34200269F9F /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
