@@ -16,6 +16,7 @@
 		DA04A54312C921440061BDB4 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA04A54212C921440061BDB4 /* GDataXMLNode.m */; };
 		DA2006D712CBA8B500EC150E /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2006D612CBA8B500EC150E /* InfoView.xib */; };
 		DA2006DA12CBA8CF00EC150E /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2006D912CBA8CF00EC150E /* InfoViewController.m */; };
+		DA3A532212EFB13E00135E39 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3A532112EFB13E00135E39 /* Icon.png */; };
 		DA40D22D12D2CC1D008F6B74 /* WeeklyCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA40D22C12D2CC1D008F6B74 /* WeeklyCalendarCell.m */; };
 		DA49C6FC12C7D9A40092DE2E /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49C6FB12C7D9A40092DE2E /* CalendarViewController.m */; };
 		DA49C6FE12C7D9C10092DE2E /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA49C6FD12C7D9C10092DE2E /* CalendarView.xib */; };
@@ -69,6 +70,7 @@
 		DA2006D612CBA8B500EC150E /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
 		DA2006D812CBA8CF00EC150E /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		DA2006D912CBA8CF00EC150E /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		DA3A532112EFB13E00135E39 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		DA40D22B12D2CC1D008F6B74 /* WeeklyCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyCalendarCell.h; sourceTree = "<group>"; };
 		DA40D22C12D2CC1D008F6B74 /* WeeklyCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyCalendarCell.m; sourceTree = "<group>"; };
 		DA49C6FA12C7D9A40092DE2E /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DA3A532112EFB13E00135E39 /* Icon.png */,
 				DAACB1D812DE217700FA265E /* ChineseCal-Info.plist */,
 				DA857E9912CD9D64006B87CE /* appIcon.png */,
 				DA857E9A12CD9D64006B87CE /* appIcon@2x.png */,
@@ -342,6 +345,7 @@
 				DA5F385C12DE076A009B32D3 /* mkinstalldirs in Resources */,
 				DA5F386212DE076A009B32D3 /* README in Resources */,
 				DAACB1D912DE217700FA265E /* ChineseCal-Info.plist in Resources */,
+				DA3A532212EFB13E00135E39 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +460,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
